@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Detection</title>
+</head>
+<body>
+    <h1>Furniture Detection</h1>
+    <form method="POST" enctype="multipart/form-data" action="/">
+        <input type="file" name="image" accept="image/*">
+        <button type="submit">Upload Image</button>
+    </form>
+</body>
+</html>
+
+<!-- index.html
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interior Design Recommendation</title>
+</head>
+<body>
+    <h1>Interior Design Recommendation</h1>
+    <h2>Room Image</h2>
+    <img src="{{ room_image }}" alt="Room Image" style="max-width: 400px;">
+    <h2>Recommended Furniture</h2>
+    <ul>
+        {% for furniture in recommendations %}
+        <li><a href="{{ url_for('furniture_details', furniture=furniture) }}">{{ furniture }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html> -->
+
